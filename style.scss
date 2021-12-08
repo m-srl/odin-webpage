@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: #fff;
+}
+header,
+section.intro,
+footer {
+  background: #1f2937;
+  color: #fff;
+}
+header nav {
+  max-width: 75%;
+  margin: auto;
+  display: flex;
+
+  align-items: center;
+  min-height: 7vh;
+  justify-content: space-between;
+}
+header nav h2 {
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+section.intro > div {
+  padding: 0 15px;
+  min-height: 65vh;
+  max-width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  p {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    width: 80%;
+  }
+}
+.intro-text h1 {
+  font-size: 70px;
+}
+.intro-text button {
+  border: none;
+  color: black;
+  background: #3882f6;
+  align-self: flex-start;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section.cards {
+  > div {
+    max-width: 75%;
+    margin: auto;
+    min-height: 55vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0;
+  }
+  .cards-container {
+    display: flex;
+    gap: 30px;
+    > div {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+    }
+    img {
+      border: 3px solid #3882f6;
+      border-radius: 10px;
+
+      max-width: 100%;
+    }
+    p {
+      width: 56%;
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+}
+
+.testimonial {
+  background: #e5e7eb;
+  > div {
+    width: 45%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 55vh;
+  }
+  p {
+    font-size: 40px;
+    font-style: italic;
+  }
+  h4 {
+    align-self: flex-end;
+    font-size: 30px;
+  }
+}
+
+.cta {
+  min-height: 35vh;
+  display: grid;
+  place-items: center;
+  > div {
+    width: 75%;
+    margin: auto;
+    min-height: 15vh;
+    background: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+  h4 {
+    font-size: 28px;
+  }
+  button {
+    background: none;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  p,
+  button {
+    font-size: 20px;
+  }
+}
+
+footer {
+  min-height: 10vh;
+  display: grid;
+  place-items: center;
+}

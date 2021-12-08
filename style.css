@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+header,
+section.intro,
+footer {
+  background: #1f2937;
+  color: #fff;
+}
+
+header nav {
+  max-width: 75%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 7vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+section.intro > div {
+  padding: 0 15px;
+  min-height: 65vh;
+  max-width: 75%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.intro-text p {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  width: 80%;
+}
+
+.intro-text h1 {
+  font-size: 70px;
+}
+
+.intro-text button {
+  border: none;
+  color: black;
+  background: #3882f6;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section.cards > div {
+  max-width: 75%;
+  margin: auto;
+  min-height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.cards h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: 40px 0;
+}
+
+section.cards .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+section.cards .cards-container > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.cards .cards-container img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+section.cards .cards-container p {
+  width: 56%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.testimonial {
+  background: #e5e7eb;
+}
+
+.testimonial > div {
+  width: 45%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 55vh;
+}
+
+.testimonial p {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.testimonial h4 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 30px;
+}
+
+.cta {
+  min-height: 35vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.cta > div {
+  width: 75%;
+  margin: auto;
+  min-height: 15vh;
+  background: #3882f6;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.cta h4 {
+  font-size: 28px;
+}
+
+.cta button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.cta p,
+.cta button {
+  font-size: 20px;
+}
+
+footer {
+  min-height: 10vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+/*# sourceMappingURL=style.css.map */
